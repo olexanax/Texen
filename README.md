@@ -1,6 +1,6 @@
 # Texen Projectd
 
-This project is a web application built using HTML, CSS, and JavaScript. It includes multiple HTML files based on the 'pages' concept, along with associated styles, images, and scripts.
+This project is a web application with mobile-first layout, built using HTML, CSS, and JavaScript. It includes multiple HTML files based on the 'pages' concept, along with associated styles, images, and scripts.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ To run this project on your local machine, follow these steps:
 
 ### Prerequisites
 
-- Node.js and npm should be installed on your system. You can download them from [here](https://nodejs.org).
+-   Node.js and npm should be installed on your system. You can download them from [here](https://nodejs.org).
 
 ### Installation
 
@@ -24,12 +24,14 @@ cd texen
 
 npm install
 
-### Usage
+## Usage
 
+If you want to open the project on your local server, make sure to replace all instances of "https://texen.vercel.app" with the address of your server. Update the URLs in your project files accordingly to reflect the correct server address.
 
-To run the project locally, use any method that is convenient for you. If you are using Visual Studio Code, you can install the "Live Server" extension and launch it for your project.
+This ensures that your project is properly configured to communicate with your local server instead of the remote server hosted at "https://texen.vercel.app"
 
-#### Contributing
+## Contributing
+
 If you'd like to contribute to this project, you can follow these steps:
 
 Fork the repository on GitHub.
@@ -40,4 +42,5 @@ Submit a pull request to the main repository.
 Please make sure to follow the project's coding standards and guidelines when contributing.
 
 #### License
+
 This project is licensed under the MIT License.

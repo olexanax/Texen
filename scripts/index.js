@@ -1,13 +1,13 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
 
-//=======ПІДСВІТКА ТЕКСТУ================
+//=======TEXT LIGTH ON HOVER================
 const links = document.querySelectorAll('.link');
 links.forEach(link => {
     const chars = link.textContent.split("").map(char => `<span>${char}</span>`).join('');
     link.innerHTML = chars
 
 });
-//=======МЕНЮ БУРГЕР================
+//=======BURGER MENU================
 const burgerButton = document.querySelector('.header_menu_button');
 const menu = document.querySelector('.menu');
 const body = document.querySelector('body');
@@ -18,7 +18,7 @@ const toggleMenu = () => {
     burgerButton.classList.toggle('close')
 }
 burgerButton.addEventListener("click", toggleMenu)
-//=======КОПІЮВАННЯ ТЕКСТУ================
+//=======COPY TEXT================
 let emailButton = document.querySelector('.emailButton')
 let phoneButton = document.querySelector('.phoneButton')
 let modalTextCopied = document.querySelector('.modal__text_copied');
@@ -51,7 +51,7 @@ if (modalTextCopied && modalTextCopiedBtn && (emailButton && phoneButton || phon
 
     })
 }
-//=======СЛАЙДЕР================
+//=======SLIDER================
 const reviewsSwiper = new Swiper('.swiper_review', {
     // Optional parameters
     direction: 'horizontal',
@@ -187,12 +187,3 @@ if (radioButons && titleInput) {
         }
     })
 }
-//=======DYNAMIC URL's================
-
-const urls = document.querySelectorAll(".route")
-const currentUrl = window.location.href
-const baseUrl = currentUrl.slice(0, currentUrl.indexOf('pages/'))
-urls.forEach(link => {
-    const localUrl = link.href.slice(link.href.indexOf("pages"))
-    link.href = `${baseUrl}${localUrl}`
-})
