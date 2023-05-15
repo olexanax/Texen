@@ -1,0 +1,13 @@
+.reviews {
+}
+.reviews__main-info,
+.reviews__card {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 1024px) {
+    .reviews__main-info,
+    .reviews__card {
+        margin-bottom: 64px;
+    }
+}

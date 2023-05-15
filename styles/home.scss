@@ -1,0 +1,31 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .second_title {
+        margin-bottom: 16px;
+    }
+}
+.home__text-points {
+    padding: 0 8px;
+}
+.home__main-info,
+.home__card,
+.home__slider,
+.home__text-points {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 1024px) {
+    .home {
+        .second_title {
+            margin-bottom: 32px;
+        }
+    }
+    .home__main-info,
+    .home__card,
+    .home__slider,
+    .home__text-points {
+        margin-bottom: 64px;
+    }
+}

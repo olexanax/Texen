@@ -1,0 +1,23 @@
+.menu__header {
+    margin-bottom: 48px;
+}
+.header_menu_img {
+}
+.menu {
+    padding-top: 48px;
+    height: 1000px;
+    a {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
+}

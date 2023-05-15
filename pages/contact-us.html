@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="contact-us__header header">
+                <a
+                    class="header__logo logo"
+                    href="http://127.0.0.1:5500/pages/"
+                >
+                    <img
+                        class="logo__img"
+                        src="../images/icons/logo_default.svg"
+                        alt=""
+                    />
+                </a>
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a
+                                href="http://127.0.0.1:5500/pages/"
+                                class="nav__link link route"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a
+                                href="http://127.0.0.1:5500/pages/services.html"
+                                class="nav__link link route"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a
+                                href="http://127.0.0.1:5500/pages/reviews.html"
+                                class="nav__link link route"
+                                >Reviews</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a
+                                href="http://127.0.0.1:5500/pages/all-projects.html"
+                                class="nav__link link route"
+                                >Projects</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a
+                                href="http://127.0.0.1:5500/pages/team.html"
+                                class="nav__link link route"
+                                >Team</a
+                            >
+                        </li>
+                        <li class="nav__item nav__item_active">
+                            <a
+                                href="http://127.0.0.1:5500/pages/contact-us.html"
+                                class="nav__link link route"
+                                >Contact us</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_menu_button">
+                    <span class="menu_button_span menu_button_span1"></span>
+                    <span class="menu_button_span menu_button_span2"></span>
+                    <span class="menu_button_span menu_button_span3"></span>
+                </div>
+            </header>
+            <main>
+                <div class="menu hidden">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/"
+                                    class="nav__link link route"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/services.html"
+                                    class="nav__link link route"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/reviews.html"
+                                    class="nav__link link route"
+                                    >Reviews</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/all-projects.html"
+                                    class="nav__link link route"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/team.html"
+                                    class="nav__link link route"
+                                    >Team</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/contact-us.html"
+                                    class="nav__link link route"
+                                    >Contact us</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="contact-us">
+                    <div class="card contact-us__card">
+                        <h2 class="second_title multicolor">
+                            Stages <br />
+                            of Work With Us
+                        </h2>
+                        <ol class="card__list list">
+                            <li class="list__point">1. contact</li>
+                            <li class="list__point">2. getting to know</li>
+                            <li class="list__point">3. project discussion</li>
+                            <li class="list__point">4. cost calculation</li>
+                            <li class="list__point">5. contract</li>
+                            <li class="list__point">6. result</li>
+                        </ol>
+                        <a
+                            href="http://127.0.0.1:5500/pages/calendly.html"
+                            class="primary__button button route"
+                            ><span>Booking meeting</span>
+                        </a>
+                    </div>
+                    <div class="contact-us__form">
+                        <h2
+                            class="contact-us__form__title second_title multicolor"
+                        >
+                            Leave Your Contacts
+                        </h2>
+                        <form class="form">
+                            <div class="form__block form__title__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Your Title</label
+                                    >
+                                    <p class="optional">optional</p>
+                                </div>
+                                <div class="form__block__radio__block">
+                                    <button
+                                        class="form__block__radio-button selected__radio"
+                                        data-value="Mr"
+                                    >
+                                        Mr
+                                    </button>
+                                    <button
+                                        class="form__block__radio-button"
+                                        data-value="Mrs"
+                                    >
+                                        Mrs
+                                    </button>
+                                    <button
+                                        class="form__block__radio-button"
+                                        data-value="Ms"
+                                    >
+                                        Ms
+                                    </button>
+                                    <button
+                                        class="form__block__radio-button"
+                                        data-value="Miss"
+                                    >
+                                        Miss
+                                    </button>
+                                </div>
+                                <input
+                                    type="text"
+                                    class="form__block__input"
+                                    placeholder="Other"
+                                />
+                            </div>
+                            <div class="form__block form__name__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Your Full Name</label
+                                    >
+                                </div>
+                                <input
+                                    type="text"
+                                    class="form__block__input"
+                                    placeholder="Full Name"
+                                />
+                                <p class="validation_message">
+                                    Please input your name
+                                </p>
+                            </div>
+                            <div class="form__block form__mail__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Enter Your E-mail</label
+                                    >
+                                </div>
+                                <input
+                                    type="email"
+                                    class="form__block__input"
+                                    placeholder="E-mail"
+                                />
+                            </div>
+                            <div class="form__block form__mail__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Confirm Your E-mail</label
+                                    >
+                                </div>
+                                <input
+                                    type="email"
+                                    class="form__block__input"
+                                    placeholder="E-mail"
+                                />
+                            </div>
+                            <div class="form__block form__number__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Your Phone Number</label
+                                    >
+                                </div>
+                                <input
+                                    type="tel"
+                                    class="form__block__input"
+                                    placeholder="Phone Number"
+                                />
+                            </div>
+                            <div class="form__block form__link__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Add Link</label
+                                    >
+                                    <p class="optional">optional</p>
+                                </div>
+                                <div class="form__block__input__block">
+                                    <input
+                                        type="text"
+                                        class="form__block__input"
+                                        placeholder="Add Link"
+                                    />
+                                    <a
+                                        href="#"
+                                        class="primary__button small__button"
+                                        ><img
+                                            src="../images/icons/add.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form__block form__message__block">
+                                <div class="form__block__title">
+                                    <label class="form__block__label"
+                                        >Your Message</label
+                                    >
+                                    <p class="optional">optional</p>
+                                </div>
+                                <textarea
+                                    class="form__block__textarea"
+                                    placeholder="Your Message"
+                                ></textarea>
+                                <p class="validation_message">
+                                    You have to agree with Privacy Policy
+                                </p>
+                            </div>
+                            <div class="form__block form__privacy__block">
+                                <input
+                                    type="checkbox"
+                                    name="privacy"
+                                    class="form__privacy__checkbox"
+                                />
+                                <p class="form__privacy__text">
+                                    I give consent to the prosessing of my
+                                    personal data given in the contact form
+                                    above as well as receiving commercial and
+                                    marketing communications under the terms and
+                                    conditins of Texen
+                                    <a
+                                        class="link route"
+                                        href="http://127.0.0.1:5500/pages/privacy-policy.html"
+                                    >
+                                        Privacy Policy</a
+                                    >
+                                </p>
+                            </div>
+                            <a href="#" class="primary__button button"
+                                ><span>send</span>
+                            </a>
+                        </form>
+                    </div>
+                    <div class="card contact-us__card">
+                        <h2 class="second_title multicolor">Our Contacts</h2>
+                        <p>You can reach us on this contacts:</p>
+                        <a
+                            href="#"
+                            class="secondary__button button button_contact phoneButton"
+                            ><span class="phone">+372 712 3248</span
+                            ><img src="../images/icons/copy.svg" alt="" />
+                        </a>
+                        <a
+                            href="#"
+                            class="secondary__button button button_contact emailButton"
+                            ><span class="email">ask@texen.dev</span
+                            ><img src="../images/icons/copy.svg" alt="" />
+                        </a>
+                        <a
+                            href="#"
+                            class="secondary__button button button_contact linkedinButton"
+                            ><span class="linkedin">Linkedin</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- MODAL -->
+                <div class="modal__wrapper hidden">
+                    <div class="modal">
+                        <p class="modal__message">
+                            Your message has been sent succefully. We will
+                            contact you shortly [within 24 hours except Saturday
+                            and Sunday]
+                        </p>
+                        <a href="#" class="primary__button button"
+                            ><span>ok</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal__wrapper hidden modal__text_copied">
+                    <div class="modal">
+                        <p class="modal__message">
+                            Contact is successfully copied
+                        </p>
+                        <a href="#" class="primary__button button"
+                            ><span>ok</span>
+                        </a>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__wrapper">
+                    <nav class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/"
+                                    class="nav__link link route"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/services.html"
+                                    class="nav__link link route"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/reviews.html"
+                                    class="nav__link link route"
+                                    >Reviews</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/all-projects.html"
+                                    class="nav__link link route"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/team.html"
+                                    class="nav__link link route"
+                                    >Team</a
+                                >
+                            </li>
+                            <li class="nav__item nav__item_active">
+                                <a
+                                    href="http://127.0.0.1:5500/pages/contact-us.html"
+                                    class="nav__link link route"
+                                    >Contact us</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__contacts contacts">
+                        <ul class="contacts__list">
+                            <li class="contact__item">
+                                <a class="link" href="tel:+380662431075"
+                                    >+380662431075</a
+                                >
+                            </li>
+                            <li class="contact__item">
+                                <a class="link" href="mailto:ask@texen.dev"
+                                    >ask@texen.dev</a
+                                >
+                            </li>
+                            <li class="contact__item">
+                                <a class="link" href="#">Linkedin</a>
+                            </li>
+                            <li class="privacy-policy__link">
+                                <a
+                                    class="link route"
+                                    href="http://127.0.0.1:5500/pages/privacy-policy.html"
+                                    >privacy policy</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="../scripts/index.js" type="module"></script>
+    </body>
+</html>

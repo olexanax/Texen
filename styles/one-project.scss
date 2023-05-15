@@ -1,0 +1,34 @@
+.one-project {
+    & .card {
+        gap: 24px;
+        padding-bottom: 10px;
+        .button {
+            margin-top: 8px;
+        }
+    }
+    .slide__project-photo {
+        margin-bottom: 0px;
+    }
+}
+.one-project__header {
+}
+.one-project__main-info,
+.one-project__card,
+.one-project__descr-block {
+    margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+    .one-project__main-info,
+    .one-project__card,
+    .one-project__descr-block {
+        margin-bottom: 64px;
+    }
+    .one-project {
+        & .card {
+            gap: 48px;
+        }
+        .slide__project-photo {
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.team {
+}
+.team__main-info,
+.team__card {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 1024px) {
+    .team__main-info,
+    .team__card {
+        margin-bottom: 64px;
+    }
+}

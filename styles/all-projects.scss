@@ -1,0 +1,22 @@
+.all-projects {
+    .learn-more-block {
+        margin-bottom: 0px;
+    }
+}
+.all-projects__header {
+}
+.all-projects__main-info,
+.all-projects__card {
+    margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+    .all-projects__main-info,
+    .all-projects__card {
+        margin-bottom: 64px;
+    }
+    .all-projects {
+        .learn-more-block {
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.contact-us {
+}
+.contact-us__card {
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+    .contact-us__card,
+    .contact-us__form {
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+}
