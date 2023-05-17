@@ -129,6 +129,9 @@ textarea {
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 .home {
     display: flex;
     flex-direction: column;
@@ -146,7 +149,7 @@ textarea {
 .home__text-points {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .home .second_title {
         margin-bottom: 32px;
     }
@@ -160,7 +163,7 @@ textarea {
 .services .sevices__main-info {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .sevices__main-info {
         margin-bottom: 64px;
     }
@@ -169,7 +172,7 @@ textarea {
 .reviews__card {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .reviews__main-info,
     .reviews__card {
         margin-bottom: 64px;
@@ -179,7 +182,7 @@ textarea {
 .team__card {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .team__main-info,
     .team__card {
         margin-bottom: 64px;
@@ -192,7 +195,7 @@ textarea {
 .all-projects__card {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .all-projects__main-info,
     .all-projects__card {
         margin-bottom: 64px;
@@ -216,7 +219,7 @@ textarea {
 .one-project__descr-block {
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .one-project__main-info,
     .one-project__card,
     .one-project__descr-block {
@@ -239,7 +242,7 @@ textarea {
     align-items: center;
     margin-bottom: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .contact-us__card,
     .contact-us__form {
         gap: 32px;
@@ -255,7 +258,7 @@ textarea {
     gap: 24px;
     margin-bottom: 24px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .privacy-policy {
         padding: 64px 8px;
         gap: 48px;
@@ -342,7 +345,7 @@ a {
 .nav__item_active::after {
     content: "";
     position: absolute;
-    top: 32px;
+    top: 24px;
     left: 10%;
     width: 80%;
     height: 1px;
@@ -418,7 +421,7 @@ main {
         #010313 0%,
         #101127 100%
     );
-    width: 100%;
+    width: calc(100% - 16px);
     border: 1px solid rgba(36, 40, 79, 0.3960784314);
     border-radius: 8px;
     padding: 32px 8px;
@@ -892,6 +895,7 @@ main {
         padding: 0 32px;
     }
     .card {
+        width: calc(100% - 32px);
         padding: 64px 16px;
         gap: 64px;
     }
@@ -1074,5 +1078,8 @@ main {
     }
     .dots {
         gap: 24px;
+    }
+    .nav__item_active::after {
+        top: 32px;
     }
 }
